@@ -1,0 +1,73 @@
+.name{
+    margin-left: 47%;
+    font-size: 1vw;
+}
+
+.namebar{
+    margin-left:45%;
+    height:1vw;
+}
+
+.food{
+    margin-left: 47%;
+    font-size: 1vw;
+}
+
+.foodbar{
+    margin-left:45%;
+    height:1vw;
+    width: 6.5vw;
+}
+
+.dog{
+    margin-left: 46%;
+    font-size: 1vw;
+}
+
+.dogbar{
+    margin-left:45%;
+    height:1vw;
+}
+
+.adj{
+    margin-left: 46.5%;
+    font-size: 1vw;
+}
+
+
+.adjbar{
+    margin-left:41%;
+}
+
+.action{
+    margin-left: 47%;
+    font-size: 1vw;
+}
+
+.actionbar{
+    margin-left:45%;
+    height:1vw;
+    width: 6.5vw;
+}
+
+.submit{
+    margin-left: 47%;
+    height:1vw;
+    width: 3vw;
+}
+
+form{
+    border: solid;
+    border-radius: 5%;
+    background-color:peachpuff;
+}
+
+formContent{
+    text-align: center;
+    font-size: 100vw;
+}
+
+h2{
+    text-align: center;
+    
+}

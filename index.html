@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Basic Web Page</title>
+         <link rel="stylesheet" href="madlib.css">
+    </head>
+    <body>
+         <form id="myForm"> 
+            
+                <label class="name" for="name">Name:</label><br>
+                <input class="namebar" type="text" id="name" name="name"><br>
+    
+                <label class="food" for="food">Food:</label><br>
+                <select class="foodbar" id="food">
+
+
+                    
+                    <option value="option"> </option>
+                    
+                        <option value="Pancakes">Pancakes</opition>
+                     
+                     <option value="waffles">Waffles</opition>
+                     
+                     <option value="bacon">Bacon</opition>
+                     
+                     <option value="eggs">Eggs</opition>
+                         </select>
+    <br>     
+    
+
+                    <label class="dog" for="dog">Dog's Name:</label><br>
+                    <input class="dogbar" type="text" id="dog" name="dog"><br>
+    
+                <label class="adj" for="Phrase">Phrase:</label><br>
+           <textarea class="adjbar" rows="5" cols="50" id="phrase"name="phrase"></textarea>
+    <br>
+           <label class="action" for="action">Action</label><br>
+           <select class="actionbar" id="action">
+               
+            <option value="option"> </option>
+            <option value="walking">running</option>
+            <option value="running">walking</option>
+            <option value="flying">flying</option>
+            </select>
+<br>
+<br>
+                    <input class="submit" type="submit" value="submit">
+                </form>
+                
+
+                <div id="formContent"></div> 
+               
+               <Script>
+                  
+                  var form = document.getElementById("myForm");
+                  form.addEventListener("submit",function(event) {
+                 event.preventDefault();
+
+                 var name = document.getElementById("name").value;
+                 var food = document.getElementById("food").value;
+                 var dog = document.getElementById("dog").value;
+                 var phrase = document.getElementById("phrase").value;
+                 var action = document.getElementById("action").value;
+                 
+                 var formContent = document.getElementById("formContent");
+                 formContent.innerHTML = "<h2>Hi my name is  " +  name +
+                 ". It was early in the morning and for breakfast, I had " + food + ". My dog came over to the table from the scent of food. his name is " + dog +
+                 ". My dog then said  " + phrase + " and he was " + action + " to space.";
+                 
+                  });
+                    
+                    
+                    
+                </Script>
+    </body>
+</html>
